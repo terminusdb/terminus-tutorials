@@ -1,0 +1,36 @@
+name: terminusdb-binder
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - bqplot
+  - datashader
+  - ipycytoscape
+  - ipywidgets
+  - jupyter-server-proxy
+  - jupyterlab >=2.2.8,<3
+  - matplotlib-base
+  - nbgitpuller
+  - nodejs >=14,<15
+  - pandas
+  - pip
+  - pyld
+  - pyshacl
+  - python >=3.8,<3.9
+  - python-dateutil
+  - rdflib-jsonld
+  - requests
+  - requests_cache
+  - rust
+  - scikit-image
+  - spacy
+  - spacy-model-en_core_web_sm
+  - tabulate
+  - w3lib
+  - pip:
+    - csvs
+    - extruct
+    - pyswip
+    - terminusdb-client
